@@ -6,10 +6,13 @@ Create virtual environment with python 3.6
 Install requirements:
     pip install -r requirements/requirements.txt
 
-## Admin User
+## Admin User and DB
 
 user: fake@gmail.com
 password: x
+
+The DB is an sqlite3 included in the repository.
+So no user or pass to access it, straight away working.
 
 ## Requests
 
