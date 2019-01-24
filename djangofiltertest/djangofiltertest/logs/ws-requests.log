@@ -1,0 +1,57 @@
+[2019-01-24 18:39:26][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+[2019-01-24 18:50:25][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+[2019-01-24 18:50:50][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'

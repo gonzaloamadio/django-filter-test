@@ -1,0 +1,144 @@
+[2019-01-24 18:39:26][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+[2019-01-24 18:39:26][ERROR][django.server:124] "GET /admin/ HTTP/1.1" 500 103379
+[2019-01-24 18:39:28][WARNING][django.server:124] "GET /favicon.ico HTTP/1.1" 404 2458
+[2019-01-24 18:50:25][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+[2019-01-24 18:50:26][ERROR][django.server:124] "GET /admin/ HTTP/1.1" 500 103379
+[2019-01-24 18:50:27][WARNING][django.server:124] "GET /favicon.ico HTTP/1.1" 404 2458
+[2019-01-24 18:50:50][ERROR][django.request:118] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "/home/gonzalo/.virtualenvs/django-filter-test/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+[2019-01-24 18:50:50][ERROR][django.server:124] "GET /admin/ HTTP/1.1" 500 103379
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /admin/ HTTP/1.1" 302 0
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1862
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2019-01-24 18:52:02][INFO][django.server:124] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2019-01-24 18:52:18][INFO][django.server:124] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2019-01-24 18:52:18][INFO][django.server:124] "GET /admin/ HTTP/1.1" 200 5236
+[2019-01-24 18:52:18][INFO][django.server:124] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-01-24 18:52:19][INFO][django.server:124] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-01-24 18:52:19][INFO][django.server:124] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-01-24 18:52:19][INFO][django.server:124] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /admin/posts_areas/postarea/add/ HTTP/1.1" 200 8085
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2019-01-24 18:56:06][INFO][django.server:124] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2019-01-24 18:56:20][INFO][django.server:124] "POST /admin/posts_areas/postarea/add/ HTTP/1.1" 302 0
+[2019-01-24 18:56:21][INFO][django.server:124] "GET /admin/posts_areas/postarea/add/ HTTP/1.1" 200 8411
+[2019-01-24 18:56:21][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 18:56:21][INFO][django.server:124] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-01-24 18:56:29][INFO][django.server:124] "POST /admin/posts_areas/postarea/add/ HTTP/1.1" 302 0
+[2019-01-24 18:56:29][INFO][django.server:124] "GET /admin/posts_areas/postarea/add/ HTTP/1.1" 200 8505
+[2019-01-24 18:56:29][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 18:56:47][INFO][django.server:124] "POST /admin/posts_areas/postarea/add/ HTTP/1.1" 302 0
+[2019-01-24 18:56:47][INFO][django.server:124] "GET /admin/posts_areas/postarea/ HTTP/1.1" 200 5372
+[2019-01-24 18:56:48][INFO][django.server:124] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-01-24 18:56:48][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 18:56:48][INFO][django.server:124] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-01-24 18:56:54][INFO][django.server:124] "GET /admin/ HTTP/1.1" 200 6281
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /admin/posts/job/add/ HTTP/1.1" 200 13115
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20283
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2019-01-24 18:57:00][INFO][django.server:124] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2019-01-24 18:57:14][INFO][django.server:124] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[2019-01-24 18:57:49][INFO][django.server:124] "POST /admin/posts/job/add/ HTTP/1.1" 200 13369
+[2019-01-24 18:57:49][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:01:40][INFO][django.server:124] "GET /admin/posts/ HTTP/1.1" 200 2402
+[2019-01-24 19:01:42][INFO][django.server:124] "GET /admin/posts/job/add/ HTTP/1.1" 200 13594
+[2019-01-24 19:01:42][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:04:42][INFO][django.server:124] "POST /admin/posts/job/add/ HTTP/1.1" 302 0
+[2019-01-24 19:04:42][INFO][django.server:124] "GET /admin/posts/job/ HTTP/1.1" 200 4670
+[2019-01-24 19:04:42][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:04:45][INFO][django.server:124] "GET /admin/posts/job/add/ HTTP/1.1" 200 13594
+[2019-01-24 19:04:45][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:05:54][INFO][django.server:124] "POST /admin/posts/job/add/ HTTP/1.1" 302 0
+[2019-01-24 19:05:54][INFO][django.server:124] "GET /admin/posts/job/ HTTP/1.1" 200 4961
+[2019-01-24 19:05:54][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:16:02][INFO][django.server:124] "GET /admin/posts/job/ac58477d-7ffc-4d9d-b633-70c7aa599ec9/change/ HTTP/1.1" 200 14209
+[2019-01-24 19:16:02][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:16:03][INFO][django.server:124] "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+[2019-01-24 19:19:54][INFO][django.server:124] "POST /admin/posts/job/ac58477d-7ffc-4d9d-b633-70c7aa599ec9/change/ HTTP/1.1" 302 0
+[2019-01-24 19:19:54][INFO][django.server:124] "GET /admin/posts/job/ HTTP/1.1" 200 4971
+[2019-01-24 19:19:54][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:19:56][INFO][django.server:124] "GET /admin/posts/job/763a86e8-9423-4b30-8044-8ccd34e7b314/change/ HTTP/1.1" 200 14185
+[2019-01-24 19:19:56][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:20:04][INFO][django.server:124] "POST /admin/posts/job/763a86e8-9423-4b30-8044-8ccd34e7b314/change/ HTTP/1.1" 302 0
+[2019-01-24 19:20:04][INFO][django.server:124] "GET /admin/posts/job/ HTTP/1.1" 200 4963
+[2019-01-24 19:20:04][INFO][django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[2019-01-24 19:37:35][WARNING][django.server:124] "GET /api/v1/activejobs/ HTTP/1.1" 404 2479
+[2019-01-24 19:44:00][INFO][django.server:124] "GET /api/v1/activejobs/ HTTP/1.1" 200 1153
+[2019-01-24 19:44:19][INFO][django.server:124] "GET /api/v1/activejobs/?post_category=Telecommunications HTTP/1.1" 200 157
+[2019-01-24 19:44:31][INFO][django.server:124] "GET /api/v1/activejobs/?post_subcategory=Telecommunications HTTP/1.1" 200 682
+[2019-01-24 19:44:47][INFO][django.server:124] "GET /api/v1/activejobs/subcategory=Telecommunications HTTP/1.1" 301 0
+[2019-01-24 19:44:55][INFO][django.server:124] "GET /api/v1/activejobs/?subcategory=Telecommunications HTTP/1.1" 200 677
+[2019-01-24 19:45:32][INFO][django.server:124] "GET /api/v1/activejobs/?subcategory=zzz HTTP/1.1" 200 140
+[2019-01-24 20:01:07][INFO][django.server:124] "GET /api/v1/activejobs/ HTTP/1.1" 200 1051
+[2019-01-24 20:05:53][INFO][django.server:124] "GET /api/v1/activejobs/?post_subcategory=Network HTTP/1.1" 200 600
