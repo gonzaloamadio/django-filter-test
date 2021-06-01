@@ -45,6 +45,6 @@ rjsmin==1.0.12
 six==1.11.0
 traitlets==4.3.2
 Unidecode==1.0.23
-urllib3==1.24.1
+urllib3==1.26.5
 wcwidth==0.1.7
 whitenoise==3.3.1
