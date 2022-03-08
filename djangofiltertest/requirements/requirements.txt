@@ -17,7 +17,7 @@ django-test-without-migrations==0.6
 djangorestframework==3.8.2
 djangorestframework-serializer-extensions==0.6.0
 hashids==1.2.0
-httpie==1.0.2
+httpie==3.1.0
 idna==2.8
 ipdb==0.11
 ipython==7.2.0
